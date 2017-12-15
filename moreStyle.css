@@ -1,0 +1,92 @@
+label h4:hover{
+color:lightblue; 
+}
+a:hover {
+    color:lightblue; 
+    text-decoration: none;
+}
+#Categories {
+color: black;
+ text-decoration: none;
+ }
+ #Categories:hover {
+color: gray;
+ text-decoration: none;
+ }
+
+#submenu:hover #sublist{
+display: block;
+}
+
+#submenu{
+display: inline;
+}
+
+#sublist{    
+    display: none;
+    position: absolute; 
+    }
+    
+#sublist a:hover {
+    background-color:lightgray;
+}
+
+
+#sublist a {
+    color: white;
+    background-color:gray;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+#submenu2:hover #sublist2{
+display: block;
+}
+
+#sublist2{    
+    display: none;
+    position: absolute; 
+    }
+    
+#sublist2 a:hover {
+    background-color:lightgray;
+}
+
+
+#sublist2 a {
+    color: white;
+    background-color:gray;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+ul.navbar-nav ml-auto{display:inline;}
+.contactUs img{
+
+ border-radius: 10%;
+width: 50px;
+    height: 60px; 
+    display: inline;
+    margin: 0 auto;
+      
+}
+
+.contactUs h6,p{
+display:inline;
+}
+#accountList{display:none;
+    position: absolute; }
+
+#accountList a {
+    color: white;
+    background-color:gray;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+#accountList a:hover {
+    background-color:lightgray;
+}
+
+#acco:hover #accountList{display:block;}
